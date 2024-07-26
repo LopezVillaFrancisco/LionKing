@@ -1,0 +1,38 @@
+.text{ 
+    font-family: "Montserrat";
+    font-weight: 900;
+} 
+.navbar{
+    /* background-color: black;  */
+    margin-bottom: 4rem;
+}
+.elipse { 
+    height: 46rem;
+    width: 75%;
+    border-radius: 30%;
+    background-color: rgba(0, 0, 255, 0.734); 
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(80px);  
+} 
+.elipse.right{  
+    left: auto; 
+    top: auto;
+    right: 0;  
+}  
+.color-text{
+    color: #FFA500;
+}
+.footer{
+    /* background-color: black; */
+} 
+.texto-cta{
+    font-size: 34px;
+}
+@media (max-width: 550px) {
+    h1 {
+        font-size: 1.5rem 
+    }
+} 
